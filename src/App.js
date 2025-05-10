@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="" alt="logo" />
+        <img src="" className="" alt="logo" />
         <p>
           My Pfole loading ...
         </p>
