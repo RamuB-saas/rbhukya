@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          My Pfole loading ...
+          My Profile loading ...
         </p>
       </header>
     </div>
