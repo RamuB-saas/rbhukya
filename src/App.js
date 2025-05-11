@@ -1,37 +1,27 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css';
+import React from 'react';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div>
         <nav>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/about">About</a>
+              <Link to="/about">About</Link>
             </li>
-            <li>
-              <a href="/contact">Contact</a>
-            </li>
-            </ul>
+          </ul>
         </nav>
-        <Switch>
-          <Route path="/about">
-            <h2>About Page</h2>
-            <p>This is the about page.</p>
-          </Route>
-          <Route path="/contact">
-            <h2>Contact Page</h2>
-            <p>This is the contact page.</p>
-          </Route>
-          <Route path="/">
-            <h2>Home Page</h2>
-            <p>Welcome to the home page!</p>
-          </Route>
-        </Switch>
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
       </div>
     </Router>
   );
