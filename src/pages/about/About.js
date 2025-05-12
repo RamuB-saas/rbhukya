@@ -1,8 +1,9 @@
 import React from 'react';
+import style from './About.module.css'; 
 
 function About() {
   return (
-    <div style={{ padding: '20px' }}>
+    <div className={style.aboutPage}>
       <h1>About This Site</h1>
       <p>
         Welcome to my personal website! This project is built with React and hosted on GitHub Pages.

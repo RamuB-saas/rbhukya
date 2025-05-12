@@ -1,0 +1,48 @@
+/* App.module.css */
+.navContainer {
+  display: flex;
+  justify-content: space-between; /* Space between title and nav items */
+  align-items: center; /* Center vertically */
+  padding: 20px 50px; /* Add some padding */
+  background-color: #282c34;
+}
+
+.navContainer ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  padding: 0px 50px;
+  color: white;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.title {
+  color: white;
+  font-size: 2rem;
+  margin-right: auto;
+  float: left;
+}
+.navItem {
+  color: white;
+  text-decoration: none;
+}
+.navItem:hover {
+  text-decoration: underline;
+}
+.navItem.active {
+  font-weight: bold;
+}
+.navItem:visited {
+  color: white;
+}
