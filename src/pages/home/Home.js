@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 
 function Home() {
@@ -10,9 +11,9 @@ function Home() {
           Solution Architect & Technology Consultant specializing in Salesforce,
           Web, and Cloud solutions.
         </p>
-        <a href="#contact" className={styles.heroCTA}>
+        <Link to="/contact" className={styles.heroCTA}>
           Let's Work Together
-        </a>
+        </Link>
       </div>
     </section>
   );
