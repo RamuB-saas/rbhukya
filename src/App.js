@@ -9,6 +9,17 @@ function App() {
     <Router>
       <div>
         <div className={style.navContainer}>
+          <img
+            src={`${process.env.PUBLIC_URL}/rb_logo.png`}
+            alt="Ramu Bhukya Logo"
+            sizes="500px"
+            className={style.logo}
+            width="50"
+            height="50"
+            loading="lazy"
+            decoding="async"
+            fetchpriority="high"
+          />
           <div className={style.title}>Ramu Bhukya </div>
           <nav className={style.nav}>
             <ul className={style.navList}>
