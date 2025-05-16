@@ -1,18 +1,13 @@
 .contact {
-  background-color: #f9f9f9;
-  padding: 4rem 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
-
-.contactContent {
-  max-width: 600px;
-  background: white;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box; /* ensures padding doesn't affect width */
+.contactText {
+  background-color: yellow;
+  padding: 5px 5px 5px 0;
+  width: fit-content;
+  /*  border: 0.25px outset #020202; */
 }
 
 .contactTitle {

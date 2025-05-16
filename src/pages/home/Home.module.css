@@ -1,27 +1,58 @@
-.hero {
-  background: linear-gradient(135deg, #1e3c72, #2a5298);
-  color: white;
-  padding: 3rem 2rem;
-  text-align: center;
-  border-radius: 8px;
-  margin-bottom: 2rem;
+.homeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  height: 100vh;
 }
-
-.heroTitle {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+.titleContent {
+  border-right: 0.25px solid #020202;
 }
-
+.homeLeft {
+  flex: 1;
+  padding: 2rem;
+  max-width: 30%;
+  overflow: hidden;
+}
+.homeRight {
+  flex: 1;
+  padding: 2rem;
+  max-width: 70%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  border-bottom: 0.25px solid #020202;
+}
+.title {
+  color: #020202;
+  font-size: 2rem;
+  margin-right: auto;
+  float: left;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
 .heroSubtitle {
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
-
-.heroCTA {
-  background-color: #ffffff;
-  color: #1e3c72;
-  padding: 0.75rem 1.5rem;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
+.underline {
+  text-decoration: underline dashed #020202;
+  text-underline-offset: 3px;
+}
+.naItems {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.itemName {
+  border: 1px solid #ccc;
+  padding: 10px;
 }

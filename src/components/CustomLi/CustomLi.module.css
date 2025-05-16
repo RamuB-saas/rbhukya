@@ -1,0 +1,14 @@
+.customLi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 0;
+}
+.symobol {
+  color: #ff0000;
+  width: 10px;
+  height: 3px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}

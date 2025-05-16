@@ -1,0 +1,22 @@
+.ListItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px 8px 0;
+}
+.itemDec {
+  width: 20px;
+  height: 5px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.itemName {
+  font-weight: 400;
+  font-size: 20px;
+  text-shadow: #ccc;
+}

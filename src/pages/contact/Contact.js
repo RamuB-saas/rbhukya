@@ -5,21 +5,8 @@ function Contact() {
   return (
     <section className={styles.contact}>
       <div className={styles.contactContent}>
-        <h2 className={styles.contactTitle}>Get in Touch</h2>
-        <p className={styles.contactSubtitle}>
-          I'm always open to discussing new projects, creative ideas, or
-          opportunities to be part of your vision.
-        </p>
+        <h4 className={styles.contactText}>Contact Me</h4>
         <div className={styles.contactDetails}>
-          <p>
-            <strong>Call:</strong> +91 9502438833
-          </p>
-          <p>
-            <strong>Email:</strong>{" "}
-            <a href="mailto:ramu.bhukya0454@gmail.com">
-              ramu.bhukya0454@gmail.com
-            </a>
-          </p>
           <p>
             <strong>LinkedIn:</strong>{" "}
             <a
@@ -30,30 +17,16 @@ function Contact() {
               Connect with me
             </a>
           </p>
+          <p>
+            <strong>Email:</strong>{" "}
+            <a href="mailto:ramu.bhukya0454@gmail.com">
+              ramu.bhukya0454@gmail.com
+            </a>
+          </p>
+          <p>
+            <strong>Call:</strong> +91 9502438833
+          </p>
         </div>
-
-        {/*     <form className={styles.contactForm}>
-          <input
-            type="text"
-            placeholder="Your Name"
-            className={styles.contactInput}
-            required
-          />
-          <input
-            type="email"
-            placeholder="Your Email"
-            className={styles.contactInput}
-            required
-          />
-          <textarea
-            placeholder="Your Message"
-            className={styles.contactTextarea}
-            required
-          ></textarea>
-          <button type="submit" className={styles.contactButton}>
-            Send Message
-          </button>
-        </form> */}
       </div>
     </section>
   );
