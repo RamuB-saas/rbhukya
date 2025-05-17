@@ -1,0 +1,19 @@
+.expContainer {
+  padding: 0;
+}
+.expTitle {
+  font-size: 2.5rem;
+  color: #1e3c72;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.expTag {
+  padding: 0;
+}
+.expList {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  padding-inline-start: 2px;
+  margin-top: 0%;
+}

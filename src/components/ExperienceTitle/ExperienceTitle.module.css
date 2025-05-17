@@ -1,0 +1,34 @@
+.experienceItem {
+  padding: 0;
+}
+.companyName {
+  font-weight: 500;
+  background-color: #f5f6f0;
+  padding: 5px 5px 5px 0;
+}
+
+.roleDuration {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: fit-content;
+}
+.jobTitle {
+  padding: 0;
+  margin-right: 10px;
+}
+.jobDuration {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.jobWebsite {
+  color: #ff0000;
+  text-decoration: underline #ff0000;
+  text-underline-offset: 3px;
+  margin-left: 10px;
+}
+.jobWebsite a {
+  color: #ff0000;
+  text-decoration: underline #ff0000;
+  text-underline-offset: 3px;
+}

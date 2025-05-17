@@ -1,4 +1,6 @@
 import CustomLi from "../../components/CustomLi/CustomLi";
+import ExperienceTitle from "../../components/ExperienceTitle/ExperienceTitle";
+import styles from "./Experience.module.css";
 
 const experience = [
   {
@@ -58,21 +60,20 @@ const experience = [
 ];
 function Experience() {
   return (
-    <main className="p-6 max-w-6xl mx-auto space-y-10">
-      <h1 className="text-3xl font-bold mb-6">Professional Experience</h1>
+    <main className={styles.expContainer}>
+      <h4>Professional Experience</h4>
       {experience.map((exp, index) => (
         <section key={index} className="mb-10">
-          <h3 className="text-xl font-semibold">
-            <a href={exp.website} target="_blank" rel="noreferrer">
-              {exp.company}
-            </a>
-          </h3>
-          <p className="text-sm text-gray-500">
-            {exp.role} | {exp.duration}
-          </p>
-          <ul className="list-disc ml-5 mt-2 text-gray-700 space-y-1">
+          <ExperienceTitle
+            titleDetails={{
+              name: exp.company,
+              years: exp.duration,
+              role: exp.role,
+              website: exp.website,
+            }}
+          />
+          <ul className={styles.expList}>
             {exp.responsibilities.map((item, i) => (
-              /*  <li key={i}>{item}</li> */
               <CustomLi item={{ name: item }} />
             ))}
           </ul>

@@ -56,3 +56,9 @@
   border: 1px solid #ccc;
   padding: 10px;
 }
+h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  text-transform: uppercase; /* optional */
+  letter-spacing: 1px; /* optional */
+}
