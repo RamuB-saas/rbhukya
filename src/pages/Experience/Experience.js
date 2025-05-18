@@ -47,7 +47,7 @@ const experience = [
     ],
   },
   {
-    company: "CDAC-JNTU R&D",
+    company: "CDAC - JNTU R&D",
     website: "https://drnd.jntuh.ac.in/",
     role: "Programmer",
     duration: "Jan 2013 – Mar 2015",
